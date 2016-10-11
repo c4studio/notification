@@ -1,0 +1,21 @@
+{
+    "name": "c4studio/notification",
+    "description": "Provides an interface for adding and retrieving database stored notifications.",
+    "authors": [
+        {
+            "name": "Peter Illés",
+            "email": "peter.illes@c4studio.ro"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "laravel/framework": "5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "C4studio\\Notification\\": "src/C4studio/Notification"
+        }
+    },
+    "minimum-stability": "dev"
+}
